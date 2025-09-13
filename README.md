@@ -17,10 +17,8 @@ Este projeto é um analisador léxico desenvolvido para a disciplina de Compilad
 ```bash
 .
 ├── Makefile          # Automatiza a compilação do projeto
-├── bin/
-│   └── analisador    # Arquivo executável (gerado após a compilação)
-├── src/
-│   └── analisador.l  # Arquivo de definição das regras léxicas para o Flex
+├── analisador    # Arquivo executável (gerado após a compilação)
+├── flex.l  # Arquivo de definição das regras léxicas para o Flex
 ├── tests/
 │   └── fonte.txt     # Código de exemplo para teste
 └── README.md         # Este arquivo
@@ -58,7 +56,7 @@ Para executar o analisador, você precisa fornecer um arquivo de código-fonte c
 Execute o seguinte comando a partir da raiz do projeto:
 
 ```bash
-./bin/analisador ./tests/fonte.txt
+./analisador ./tests/fonte.txt
 ```
 
 A saída mostrará:
