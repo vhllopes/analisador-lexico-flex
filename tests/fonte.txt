@@ -1,0 +1,23 @@
+// Teste de declaracao de funcao e variaveis
+funcao inteiro calcular_fatorial(inteiro n) {
+inteiro resultado = 1;
+real temporario = 1.0;
+
+// Teste de loop e operadores
+enquanto (n > 1 e resultado <= 1000) {
+	resultado = resultado * n;
+	n = n - 1;
+}
+
+escrever("O resultado final foi: ");
+escrever(resultado);
+
+// Teste de literal de texto com caracteres escapados
+escrever("Isso eh um \"teste\" com barra \\ invertida.");
+
+retornar resultado;
+
+}
+
+// Teste de erro lexico proposital na proxima linha
+@ caractere invalido
